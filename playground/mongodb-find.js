@@ -32,5 +32,5 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, client) => {
         console.log('Unable to fectch Users', err)
     });
 
-    console.log('test')
+    // db.close();
 });
